@@ -13,7 +13,7 @@
   <li>Obter o code para o login</li>
   <li>Logar com o GitHub</li>
   <li>Fornecer o Front-end para eviar e visualizar as mensagens</li>
-  <li>Se integra ao Back-end e usar suas rotas para fazer as requisições e envios</li>
+  <li>Se integrar ao Back-end e usar suas rotas para fazer as requisições e envios</li>
 </ul>
 <br>
 
@@ -41,6 +41,7 @@
 ## 🛠 Ferramentas
   - [TypeScript](https://www.typescriptlang.org/)
   - [Vite](https://vitejs.dev/)
+  - [Axios](https://axios-http.com/)
   - [Scss](https://sass-lang.com/)
   - [Socket.io-client](https://socket.io/docs/v4/client-api/)
   - [React-icons](https://react-icons.github.io/react-icons).
