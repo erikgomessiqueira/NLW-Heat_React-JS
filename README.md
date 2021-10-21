@@ -80,10 +80,8 @@
 ## ▶ Executando a aplicação
 
   ### Servidor
-  Entre na pasta raiz do clone do [NLW-Heat_Node](https://github.com/erikgomessiqueira/NLW-Heat_Node) já configurado e execute o servidor(na sua documentação tambem ensina como executá-lo) usando o comando:
-  ```bash
-    yarn dev
-  ```
+  Entre na pasta raiz do clone do [NLW-Heat_Node](https://github.com/erikgomessiqueira/NLW-Heat_Node) já configurado e execute o servidor(na sua documentação tambem ensina como executá-lo)
+  
   <br/>
   
   ### Web
