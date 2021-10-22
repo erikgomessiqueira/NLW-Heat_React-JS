@@ -64,7 +64,7 @@
   <br/>
   
   ### Configurando o Client_id
-  Agora precisamos estar com o servidor configurado, se ainda não fez a configuração faça acessando o [Repositório do NLW-Heat_Node](https://github.com/erikgomessiqueira/NLW-Heat_Node), se ja está configurado podemos seguir em frente. No arquivo [auth.tsx](https://github.com/erikgomessiqueira/NLW-Heat_React-JS/blob/master/src/contexts/auth.tsx)(_./src/contexts/auth.tsx_) temos que alterar o valor da constante chamada **client_id** que está na linha 36 do arquivo, ela deve receber o valor do **Client ID** da sua aplicação do  GitHub( ensinei como fazer isso no [NLW-Heat_Node](https://github.com/erikgomessiqueira/NLW-Heat_Node) já que a variavel de ambiente GITHUB_CLIENT_ID recebe o mesmo valor)
+  Agora precisamos estar com o servidor configurado, se ainda não fez a configuração faça acessando o [Repositório do NLW-Heat_Node](https://github.com/erikgomessiqueira/NLW-Heat_Node), se ja está configurado podemos seguir em frente. No arquivo [auth.tsx](https://github.com/erikgomessiqueira/NLW-Heat_React-JS/blob/master/src/contexts/auth.tsx)(_./src/contexts/auth.tsx_) temos que alterar o valor da constante chamada **client_id** que está na linha 36 do arquivo, ela deve receber o valor do **Client ID** da sua aplicação do  GitHub criada para o servidor( ensinei como fazer isso no [NLW-Heat_Node](https://github.com/erikgomessiqueira/NLW-Heat_Node) já que a variavel de ambiente GITHUB_CLIENT_ID recebe o mesmo valor)
   
   Instale com yarn ou npm:
   ```javascript
@@ -74,7 +74,7 @@
 <br>
 
 ### Configure a URL de retorno
-   Para fazer essa configuração vá no GitHub em **Settings** => **Developer Settings** => **OAuth Apps**, acesse a aplicação que criamos no [NLW-Heat_Node](https://github.com/erikgomessiqueira/NLW-Heat_Node), procure por **Authorization callback URL** e mude para a URL que esta rodando o React.js(no caso desse projeto: http://localhost:3000/ )
+   Para fazer essa configuração vá no GitHub em **Settings** => **Developer Settings** => **OAuth Apps**, acesse a aplicação que criamos no [NLW-Heat_Node](https://github.com/erikgomessiqueira/NLW-Heat_Node), procure por **Authorization callback URL** que tem o valor `http://localhost:4000/signin/callback` e mude para a URL que esta rodando o React.js(no caso desse projeto: `http://localhost:3000/` )
   
 <br/>
 
@@ -101,7 +101,7 @@
   ```
 <br/>
   
-## 😁 Contrubuindo ao projeto
+## 😁 Contribuindo ao projeto
 
    > [Guia de como contribuir no GitHub](https://github.com/firstcontributions/first-contributions)
 <br>
